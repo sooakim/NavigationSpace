@@ -4,8 +4,13 @@
 # NavigationSpace
 Android View for spacing to navigation bar / status bar #Android #Kotlin #NavigationBar
 
-# How to use
->Add this to your project's project level build.gradle file
+## Demo
+Before | After
+:-------------------------:|:-------------------------:
+![](https://github.com/sooakim/NavigationSpace/blob/master/before.png)  |  ![](https://github.com/sooakim/NavigationSpace/blob/master/after.png)
+ 
+## How to use
+> project level build.gradle
 ```
 allprojects {
   repositories {
@@ -14,7 +19,7 @@ allprojects {
   }
 }
 ```
->Add the dependency
+> module level build.gradle
 ```
 dependencies {
   implementation 'com.github.sooakim:NavigationSpace:X.X.X'
